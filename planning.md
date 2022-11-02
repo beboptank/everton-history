@@ -31,3 +31,7 @@ Gallery:
 - nav bar
 - 1 H1 header
 - 3x2 image grid w/label and images should open to source in new tab/window
+
+Everton color hex codes:
+blue: #003399
+white: #ffffff
