@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monthly Poll</title>
+        <link rel="stylesheet" href="layout.css">
+    </head>
+
+    <body>
+        <header class="header-container">
+            <img class="header-container__logo">
+            <nav class="header-container__nav">
+                <ul class="header-container__nav--links">
+                    <li class="header-container__nav--home"><a>Home</a></li>
+                    <li class="header-container__nav--poll"><a>Poll</a></li>
+                    <li class="header-container__nav--links"><a>Links</a></li>
+                    <li class="header-container__nav--gallery"><a>Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="page-main">
+            <h1 class="page-main__title">Monthly Poll</h1>
+            <h2>This month's question: Who is your favorite player in Everton F.C. history?</h2>
+            <form action="/form-handling-url" method="post" class="page-main__poll">
+                <fieldset class="page-main__poll--fields">
+                    <div>
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="full_name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="user-email">
+                    </div>
+                    <div>
+                        <input type="checkbox" id="newsletter" name="newsletter-check">
+                        <label>I would like to sign up for the Everton History monthly newsletter.</label>
+                    </div>
+                    <div>
+                        <label for="poll-response">Poll response:</label>
+                        <textarea type="textfield" id="poll-response" name="poll-response" rows="5" cols="33"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" value="submit user response">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
