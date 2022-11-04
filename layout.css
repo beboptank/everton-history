@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+
+/*Variables*/
+:root {
+    --everton-blue: #003399;
+    --everton-white: #ffffff;
+}
+
+/*Home Styles*/
+
+.header-container {
+    background-color: var(--everton-blue);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container__logo {
+    width: 200px;
+}
+
+.header-container__nav--links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: var(--everton-white);
+}
+
+
