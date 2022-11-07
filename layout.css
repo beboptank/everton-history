@@ -52,7 +52,7 @@
 
 .page-main {
     display: grid;
-    grid-template-columns: 1fr 50% 1fr;
+    grid-template-columns: 1fr 66% 1fr;
 }
 
 .page-main__title {
@@ -128,8 +128,6 @@
 
 /*Links Styles*/
 
-
-
 .page-main__links {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -138,4 +136,22 @@
 .page-main__links-list li {
     font-family: 'Lato', sans-serif;
     padding: 10px;
+}
+
+/*Gallery Styles*/
+
+.page-main__image-notice {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.page-main__gallery-grid {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.page-main__gallery-grid--image {
+    width: 250px;
+    height: 150px;
 }
