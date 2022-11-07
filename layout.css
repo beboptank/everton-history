@@ -83,6 +83,7 @@
     grid-column-start: 2;
     grid-column-end: 3;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 .page-main__poll {
