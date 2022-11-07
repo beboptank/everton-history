@@ -125,3 +125,17 @@
 .page-main__poll-fields--submit-button {
     padding: 1rem;
 }
+
+/*Links Styles*/
+
+
+
+.page-main__links {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.page-main__links-list li {
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
