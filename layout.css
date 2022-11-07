@@ -37,6 +37,10 @@
     text-transform: uppercase;
 }
 
+.header-container__nav--links a {
+    text-decoration: none;
+}
+
 .header-container__nav--links a:active {
     text-decoration: none;
 }
@@ -73,3 +77,18 @@
     font-family: 'Lato', sans-serif;
 }
 
+/*Poll Styles*/
+
+.page-main__poll-question {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-family: 'Lato', sans-serif;
+}
+
+.page-main__poll {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: var(--everton-blue);
+    color: var(--everton-white);
+    font-family: 'Lato', sans-serif;
+}

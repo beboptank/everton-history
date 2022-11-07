@@ -23,26 +23,26 @@
 
         <main class="page-main">
             <h1 class="page-main__title">Monthly Poll</h1>
-            <h2>This month's question: Who is your favorite player in Everton F.C. history?</h2>
+            <h2 class="page-main__poll-question">This month's question: Who is your favorite player in Everton F.C. history?</h2>
             <form action="/form-handling-url" method="post" class="page-main__poll">
                 <fieldset class="page-main__poll--fields">
-                    <div>
+                    <div class="page-main__poll-fields--full-name">
                         <label for="fullName">Full Name:</label>
                         <input type="text" id="fullName" name="full_name">
                     </div>
-                    <div>
+                    <div class="page-main__poll-fields--email">
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="user-email">
                     </div>
-                    <div>
+                    <div class="page-main__poll-fields--checkbox">
                         <input type="checkbox" id="newsletter" name="newsletter-check">
                         <label>I would like to sign up for the Everton History monthly newsletter.</label>
                     </div>
-                    <div>
+                    <div class="page-main__poll-fields--response">
                         <label for="poll-response">Poll response:</label>
                         <textarea type="textfield" id="poll-response" name="poll-response" rows="5" cols="33"></textarea>
                     </div>
-                    <div>
+                    <div class="page-main__poll-fields--submit-button">
                         <button type="submit" value="submit user response">Submit</button>
                     </div>
                 </fieldset>
