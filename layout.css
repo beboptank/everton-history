@@ -92,3 +92,35 @@
     color: var(--everton-white);
     font-family: 'Lato', sans-serif;
 }
+
+.page-main__poll-fields--full-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 1rem;
+}
+
+.page-main__poll-fields--email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 1rem;
+}
+
+.page-main__poll-fields--checkbox {
+    padding: 1rem;
+}
+
+.page-main__poll-fields--response {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 1rem;
+}
+
+.page-main__poll-fields--submit-button {
+    padding: 1rem;
+}
